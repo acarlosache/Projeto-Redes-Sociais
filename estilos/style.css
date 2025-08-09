@@ -1,5 +1,13 @@
   
   @charset "UTF-8";
+  @media (min-width: 600px) {
+  .container {
+    width: 600px;
+    margin: 0 auto; /* Centraliza o elemento */
+  }
+}
+    
+  
 
 
   
@@ -19,6 +27,7 @@ html, body {
   background-size: cover; /* → cobre todo o fundo (pode cortar partes da imagem).*/
   background-attachment: fixed; /*fixa a imagem no fundo da tela*/
   overflow: hidden;
+
   
 }
 /*contain: faz a imagem caber inteira dentro do elemento.*/
